@@ -1,1 +1,161 @@
+variables strings, integers , float, booleans
+# str(), int(), float(), bool()
 
+#str characters with ""
+name = "Cyjay"
+last_name = "Despabiladeras"
+
+print(name +" "+last_name)
+
+#int whole numbers
+age = 9
+age_2 = 8
+
+sum = age + age_2
+print(sum)
+
+#float numbers with decimals
+height = 5.4
+gpa = 1.0
+
+print(f"My height is {height}ft")
+print(f"My gpa is {gpa}flat")
+
+#boolean true or false
+is_handsome = True
+
+
+if is_handsome: 
+  print("i'm handsome")
+
+else:
+  print("I'm not")
+
+is_cute = False
+
+if is_cute:
+  print("Thanks")
+
+else:
+  print("I'm cute also")
+
+# DON3 (Sept. 10, 2024)
+
+#Typecasting- process of converting a value of one data type to another
+
+#str(), int(), float(), bool()
+#format
+#print(type(variable))- to get what type of variable it is.
+
+#ex.
+name = "Cyjay"
+age = 17
+gpa = 1.7
+is_handsome = True
+
+print(type(name))#str
+print(type(age))#int
+print(type(gpa))#float
+print(type(is_handsome))#bool
+
+#convert int->float
+
+age = float(age)
+print(age)
+
+#float to int
+
+gpa = int(gpa)
+print(gpa)
+
+# str to int
+#for non-numeric strings like "Cyjay", you cannot convert them to integers. You should keep them as strings or handle them differently depending on your need.
+
+# str to bool
+
+name = bool(name)
+print(name)
+
+#_______________________________
+
+#input - prompts user to enter data (the data returns as a string)
+
+name = input("What is your name?")
+print(f"Hello {name}!")
+
+birthday = input("When is your birthday?")
+age = int(input("How old are you?"))
+
+age = age + 1
+
+print(f"You will be {age} years of age on {birthday},2024");
+
+# f is used to enter str 
+# {} is used to enter variables
+
+#another example
+
+place = input("Where do you reside?")
+long = input("How long have you lived there?")
+when = input("When did you move there?")
+
+input(f"You live in {place} for {long} and you moved there on {when} is it correct?")
+
+print("ok niggs")
+
+#_______________________________
+
+#Basic Calcu ++
+#+,-,*,/
+#Addition
+
+choice = input("Choose the operation 1|2|3|4:")
+
+if choice == "1":
+  print("Addition(+)")
+  number = float(input("Enter a number: "))
+  number_2 = float(input("Enter a number: "))
+  print("=")
+  print(number + number_2)
+
+if choice == "2":
+  print("Substraction (-)")
+  number = float(input("Enter a number: "))
+  number_2 = float(input("Enter a number: "))
+  print("=") 
+  print(number - number_2)
+
+if choice == "3":
+  print("Multiplication (*)")
+  number = float(input("Enter a number: "))
+  number_2 = float(input("Enter a number: "))
+  print("=")
+  print(number * number_2)
+
+if choice == "4":
+  print("Division (/)")
+  number = float(input("Enter a number: "))
+  number_2 = float(input("Enter a number: "))
+  print("=")
+  print(number / number_2)
+
+# daz all ma nigga
+
+#Shop ex.
+
+item = input("What do you want to buy? ")
+price = float(input("How much does it cost? "))
+quantity = input("How many are you buying? ")
+total = price * int(quantity )
+
+print(f"You have bought {quantity}x of {item} and your total is ₱{total}")
+
+#exercises done
+
+
+
+
+
+
+    
+  
